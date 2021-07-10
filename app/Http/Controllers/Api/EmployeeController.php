@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Resources\EmployeeResource;
 use App\Http\Requests\EmployeeStoreRequest;
+use App\Http\Resources\EmployeeSingleResource;
 
 class EmployeeController extends Controller
 {

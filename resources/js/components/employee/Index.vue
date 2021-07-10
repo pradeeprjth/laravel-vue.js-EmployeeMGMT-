@@ -83,10 +83,7 @@
                                         :to="{
                                             name: 'EmployeesEdit',
                                             params: { id: employee.id }
-                                        }"
-                                        class="btn btn-success"
-                                        >Edit</router-link
-                                    >
+                                        }" class="btn btn-success">Edit</router-link>
                                     <button
                                         class="btn btn-danger"
                                         @click="deleteEmployee(employee.id)"
